@@ -17,6 +17,13 @@
             <li><a href="/animeCadastro">Cadastro</a></li>
         </ul>        
     </nav>
+    
+    <% if(message != "") {  %>
+        <section id="message">
+            <p><%= message %></p> <span id="close">&times;</span>
+        </section>
+    <% }  %>
+
     <header>
         <p>-------------------------//--------------------</p>
     </header>
@@ -41,5 +48,6 @@
             <button type="submit">Criar</button>
         </form>
     </section>
+    <script src="/js/script.js"></script>
 </body>
 </html>
