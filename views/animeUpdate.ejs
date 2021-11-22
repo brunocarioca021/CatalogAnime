@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-flex">
+        <ul class="nav-bar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Animes</a></li>
+            <li><a href="/">Mangas</a></li>
+            <li><a href="/">Personagens</a></li>
+            <li><a href="/animeCadastro">Cadastro</a></li>
+        </ul>        
+    </nav>
+    
+    <% if(message != "") {  %>
+        <section id="message">
+            <p><%= message %></p> <span id="close">&times;</span>
+        </section>
+    <% }  %>
+
+    <header>
+        <p>-------------------------//--------------------</p>
+    </header>
+    <section id="animeCadastro">
+
+        <form action="/animeUpdate/<%= anime.id%>" method="POST">
+            <div>
+                <label for="nome">Digite o nome do Anime: </label>
+                <input type="text" name="nome" id="nome" value="<%= anime.nome%>" placeholder="Nome do Anime">
+            </div>
+        
+            <div>
+                <label for="descricao">Digite a descrição do Anime: </label>
+                <input type="text" name="descricao" id="descricao" value="<%= anime.descricao%>" placeholder="Descrição">
+            </div>
+
+            <div>
+                <label for="imagem">Coloque o link para a imagem do Anime: </label>
+                <input type="text" name="imagem" id="imagem" value="<%= anime.imagem%>" placeholder="Link da imagem">
+            </div>
+        
+            <button type="submit">Atualizar</button>
+        </form>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+</html>
