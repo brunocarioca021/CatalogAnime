@@ -10,7 +10,7 @@ html body  {
     /* border: 5px  solid green; */
     height: 500%;
     background: -webkit-linear-gradient(rgb(218, 49, 49), rgba(228, 228, 51, 0.83));
-    background-image: url("/img/fundo.jpg");
+    background-image: url("/img/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,3 +57,7 @@ html body  {
       a:hover {
         opacity: 0.7;
       }
+
+#home{
+  background-image: url("/img/Background.jpg");
+}
