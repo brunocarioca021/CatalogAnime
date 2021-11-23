@@ -15,9 +15,17 @@ const Anime =  require("./models/anime");
 const message = "";
 
 app.get("/", async (req, res) => {
+  const animes = await Anime.findAll();
+  
+  res.render("index",{ 
+  animes,
+});
+});
+
+app.get("/animes", async (req, res) => {
     const animes = await Anime.findAll();
     
-    res.render("index",{ 
+    res.render("anime",{ 
     animes,
   });
 });
