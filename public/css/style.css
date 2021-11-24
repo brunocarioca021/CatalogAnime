@@ -79,8 +79,8 @@ html body  {
   color: white;
 }
 #closed{ 
-  max-width:50px;
-  max-height:40px;
+  max-width:30px;
+  max-height:20px;
   width: auto;
   height: auto;
   margin-left: 95%;
