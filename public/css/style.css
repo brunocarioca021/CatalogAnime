@@ -174,3 +174,13 @@ html body  {
     justify-content: flex-start;
     transition: 0.1s;
   }
+.animeCard ul:hover {
+    transform: scale(1.1);
+    }
+    .animeCard ul li {
+      padding: 5px;
+    }
+    .animeCard ul li img{
+      height: 200px;
+      width: 200px;
+    } 
