@@ -58,9 +58,7 @@ html body  {
         opacity: 0.7;
       }
 
-#home{
-  background-image: url("/img/Background.jpg");
-}
+
 .btn_cadastro{
   border: 6px solid rgb(41, 41, 33);
   background-color: darkred;
@@ -81,3 +79,85 @@ html body  {
   background-color: #f44336;
   color: white;
 }
+#closed{ 
+  max-width:80px;
+  max-height:70px;
+  width: auto;
+  height: auto;
+  margin-left: 70%;
+  
+  }
+  #closed:hover{
+   transition: all 0.5s;
+   cursor: pointer;
+   -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(82, 4, 4, 0.5));
+  }
+  section#animeCadastro {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin: 0 20rem 10rem 20rem;
+    box-shadow: 0 0 1rem #00000060;
+    border-radius: 1rem;
+  }
+  section#animeCadastro form {
+    width: 100%;
+    padding: 2rem;
+  }
+  section#animeCadastro form div input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 0.1rem solid #ccc;
+  }
+  
+  section#animeCadastro form div label {
+    font-size: 1.3rem;
+    color: red;
+  }
+  
+  section#animeCadastro form button {
+    border: 1px solid red;
+    background-color: #fff;
+    color: red;
+    padding: 1rem;
+    font-size: 0.8vw;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    width: 40%;
+  }
+  
+  section#animeCadastro form button:hover {
+    background-color: rgb(136, 139, 137);
+    color: #fff;
+    transform: scale(1.1);
+  }
+  section#message {
+    padding: 1.5rem;
+    background-color: orange;
+    color: red;
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
