@@ -19,7 +19,6 @@
         </ul>        
     </nav>
     <header>
-        <p>-------------------------//--------------------</p>
     </header>
     <article id="animeFlex">
         <ul>
@@ -27,6 +26,8 @@
             <li>Nome: <%= anime.nome %></li>
             <li>Descrição: <%= anime.descricao %></li>
             <img src="<%= anime.imagem %>" width=400>
+            <button><a href="/animeUpdate/<%= anime.id %>">Updade</a></button>
+            <button><a href="/animeDeletar/<%= anime.id %>">Deletar</a></button>
         </ul>
     </article>
 </body>

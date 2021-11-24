@@ -19,14 +19,12 @@
         </ul>        
     </nav>
     <header>
-        <p>-------------------------//--------------------</p>
     </header>
     <section id="animes">
         <% animes.forEach(item => { %>
             <section class="animeCard">
                 <article id="animeFlex">
                     <ul>
-                        <li>ID: <%= item.id %></li>
                         <li>Nome: <%= item.nome %></li>
                         <li>Descrição: <%= item.descricao %></li>
                         <a href="/anime/<%= item.id %>">
