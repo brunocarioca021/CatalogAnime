@@ -41,6 +41,7 @@ html body  {
       }
       .nav-bar {
         padding-top: 55px;
+        font-weight: 900;  
         list-style: none;
         display: flex;
       }
