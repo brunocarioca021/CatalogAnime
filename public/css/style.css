@@ -62,7 +62,7 @@ html body  {
   background-image: url("/img/Background.jpg");
 }
 .btn_cadastro{
-  border: 6px solid yellow;
+  border: 6px solid rgb(41, 41, 33);
   background-color: darkred;
   border: none;
   color: white;
