@@ -79,11 +79,11 @@ html body  {
   color: white;
 }
 #closed{ 
-  max-width:80px;
-  max-height:70px;
+  max-width:50px;
+  max-height:40px;
   width: auto;
   height: auto;
-  margin-left: 70%;
+  margin-left: 95%;
   
   }
   #closed:hover{
