@@ -95,7 +95,7 @@ html body  {
     filter: drop-shadow(15px 10px 5px rgba(82, 4, 4, 0.5));
   }
   section#animeCadastro {
-    padding: 1rem;
+    padding: 0rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
