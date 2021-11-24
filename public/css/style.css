@@ -100,7 +100,7 @@ html body  {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #fff;
-    margin: 0 20rem 0rem 40rem;
+    margin: 0 20rem 10rem 30rem;
     box-shadow: 0 0 1rem #00000060;
     border-radius: 1rem;
   }
