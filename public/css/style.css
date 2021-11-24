@@ -28,7 +28,7 @@ html body  {
         background-color: linear-gradient(to left, rgb(170, 170, 232), blue) ;       
       }
       .logo {
-        font-size: 24px;
+        font-size: 45px;
         text-transform: uppercase;
         letter-spacing: 4px;
       }
@@ -42,6 +42,7 @@ html body  {
       .nav-bar {
         padding-top: 55px;
         font-weight: 900;  
+        font-size: x-large;  
         list-style: none;
         display: flex;
       }
