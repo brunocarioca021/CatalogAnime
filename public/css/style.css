@@ -198,11 +198,11 @@ html body  {
     /* .animeCard ul li {
       padding: 10px;
     } */
-    /* .animeCard ul li img{
-      border-radius: 15px;
+    .animeCard ul li {
+      /* border-radius: 15px; */
       height: 90px;
       width: 90px;
-    } */
+    }
     article#animeFlex ul {
       list-style: none;
     }
