@@ -200,6 +200,7 @@ html body  {
     } */
     .animeCard ul li {
       /* border-radius: 15px; */
+      padding: 10px;
       height: 90px;
       width: 90px;
     }
