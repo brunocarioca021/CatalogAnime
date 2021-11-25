@@ -200,8 +200,8 @@ html body  {
     }
     .animeCard ul li {
       /* border-radius: 15px; */     
-      height: 90px;
-      width: 90px;
+      height: 100px;
+      width: 100px;
     }
     article#animeFlex ul {
       list-style: none;
