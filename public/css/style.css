@@ -192,8 +192,8 @@ html body  {
   }
   
   
-  article#animeFle ul li {
-    width: 50%;
+  article#animeFlex li {
+    width: 100%;
     text-align: center;
     padding: 1rem;
     color: #000;
