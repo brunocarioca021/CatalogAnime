@@ -164,7 +164,7 @@ html body  {
     justify-content: space-between;
   }
   section#animes {
-    background-color: rgb(255, 68, 230);
+    /* background-color: rgb(255, 68, 230); */
     padding: 1rem;
     display: flex;
     justify-content: center;
