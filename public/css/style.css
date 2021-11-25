@@ -163,6 +163,16 @@ html body  {
     align-items: center;
     justify-content: space-between;
   }
+  .animeCard {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    position: relative;
+  }
 .animeCard ul li {
     list-style: none;
     margin: 10px;
