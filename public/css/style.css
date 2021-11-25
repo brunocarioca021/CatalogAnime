@@ -191,3 +191,8 @@ html body  {
       background-image: linear-gradient(to top left, red, yellow);
       width: 100px;
     }
+    .detalhesImg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto 
+    }
