@@ -163,6 +163,14 @@ html body  {
     align-items: center;
     justify-content: space-between;
   }
+  section#animes {
+    background-color: rgb(255, 68, 230);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6rem 1rem 3rem 1rem;
+  }
   .animeCard {
     background-color: #fff;
     padding: 1rem;
