@@ -208,7 +208,7 @@ html body  {
     }
     
     article#animeFlex ul li {
-      /* padding: 1rem 1rem 1rem 3rem; */
+      padding: 1rem 1rem 1rem 3rem;
       font-size: 1.2rem;
     }
     article#animeFlex button {
