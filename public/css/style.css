@@ -163,13 +163,13 @@ html body  {
     align-items: center;
     justify-content: space-between;
   }
-  /* section#animes {
+  section#animes {
     padding: 1rem;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 6rem 1rem 3rem 1rem;
-  } */
+/*     padding: 6rem 1rem 3rem 1rem; */
+  }
   .animeCard {
     width: 20rem;
     padding: 3rem;
