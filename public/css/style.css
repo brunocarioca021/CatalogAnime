@@ -175,8 +175,8 @@ html body  {
     justify-content: center;
     cursor: pointer;
     transition: transform 0.5s;
-    background-color: #fff;
-    color: #000;
+    background-color: black;
+    color: whitesmoke;
     text-decoration: none;
   }
   
