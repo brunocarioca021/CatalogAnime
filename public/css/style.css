@@ -197,6 +197,7 @@ html body  {
     width: 15rem;
     height: 15rem;
     border-radius: 10px;
+    text-align: center;  
   }
     article#animeFlex button {
       padding: 5px;
