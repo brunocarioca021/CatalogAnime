@@ -12,6 +12,7 @@ html body  {
     background: -webkit-linear-gradient(rgb(218, 49, 49), rgba(228, 228, 51, 0.83));
     background-image: url("/img/Background.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
