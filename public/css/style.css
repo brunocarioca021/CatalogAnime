@@ -183,6 +183,7 @@ section#message {
   background-color: black;
   color: whitesmoke;
   text-decoration: none;
+  word-wrap: break-word;
   /* transform: skew(20deg);
   animation: shake 2s infinite;
   animation-direction: alternate; */
@@ -222,5 +223,6 @@ article#animeFlex button {
   width: 100px;
 }
 section#inscrever div h4 {
+
   text-shadow: 0px 0px 3px aqua;
 }
