@@ -241,3 +241,11 @@ section#del div a img {
 section#del div a img h4 {
   display: inline-block;
 }
+section#button {
+  padding:8px 4px;
+  margin:4px;
+  background:#F5F5F5;
+  cursor: pointer;
+  border:none;
+  box-shadow: 4px 8px gray, 0 2px 4px rgba(0,0,0,0.1);
+}
