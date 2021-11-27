@@ -236,5 +236,8 @@ section#del div a img {
   width: 15%;
   height: 20%;
   left: 50%;
+}
 
+section#del div a img h4 {
+  display: inline-block;
 }
