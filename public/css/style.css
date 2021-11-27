@@ -183,18 +183,18 @@ section#message {
   background-color: black;
   color: whitesmoke;
   text-decoration: none;
-  transform: skew(20deg);
+  /* transform: skew(20deg);
   animation: shake 2s infinite;
-  animation-direction: alternate;
+  animation-direction: alternate; */
 }
-@keyframes shake {
+/* @keyframes shake {
   0% {
     transform: skewY(20deg);
   }
   100% {
     transform: skewY(-20deg);
   }
-}
+} */
 
 .animeCard ul:hover {
   transform: scale(1.1);
