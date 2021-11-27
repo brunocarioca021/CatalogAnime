@@ -155,8 +155,8 @@ section#animeCadastro form button:hover {
 }
 section#message {
   padding: 1.5rem;
-  background-color: orange;
-  color: red;
+  background-color: darkred;
+  color: goldenrod;
   position: fixed;
   top: 3rem;
   left: 0;
