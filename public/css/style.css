@@ -231,4 +231,10 @@ section#inscrever div h4 {
   text-align: center;
   text-shadow: 0px 0px 3px aqua;
 }
+section#del img {
+  border-radius: 15px;
+  width: 15%;
+  height: 20%;
+  left: 50%;
 
+}

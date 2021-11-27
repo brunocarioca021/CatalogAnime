@@ -9,6 +9,7 @@
 </head>
 <body>
     <nav class="nav-flex">
+        <h1 class="titulo"><a class="logo" href="/">World Otaku</a></h1>
         <ul class="nav-bar">
             <li><a href="/animes">Animes</a></li>
             <li><a href="/">Mangas</a></li>
@@ -29,8 +30,8 @@
         <section id="inscrever">
             <form action="/animeDeletar/<%= anime.id %>" method="POST">
                 <div>
-                   <h4>DESEJA DELETAR O CARD? <%= anime.nome %>"</h4>
-                   <a href="/"><img src="/img/fecharbtn.png"  id="closed"></a>
+                    <a href="/"><img src="/img/anichoro.gif"  id="del"></a>
+                   <h4>DESEJA DELETAR O CARD? <%= anime.nome %>"</h4>                   
                 </div>
                 <button type="submit">Deletar</button>
             </form>
