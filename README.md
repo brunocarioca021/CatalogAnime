@@ -1,6 +1,9 @@
 Projeto Final - Educacional Blue EdTech
 Catálogo com Tema Livre
 
+Linguagem: JavaScript
+Framework: Express (MVC)
+
 - Crie um catalogo a sua escolha usando as técnicas aprendidas em aula.
 
 - A estrutura do seu catálogo é livre, desde que faça as 4 operações do CRUD.
